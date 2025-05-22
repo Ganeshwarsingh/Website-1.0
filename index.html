@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebCraft Solutions - Professional Web Development</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+ <button id="themeToggle" class="theme-toggle">
+            <i class="fas fa-moon"></i>
+        </button>
+
+    <!-- Header and Navigation -->
+    <header>
+<div class="logo" id="logo">
+    <h1>WebCraft<span>Solutions</span></h1>
+</div>
+
+<!-- Modal Popup HTML (can be placed at the end of your body tag) -->
+<div class="modal" id="welcomeModal">
+    <div class="modal-content">
+        <span class="close-btn" id="closeModal">&times;</span>
+        <h2>Welcome!</h2>
+        <p class="modal-message">Welcome to our website, we are pleased to help. Feel free to reach out.</p>
+    </div>
+</div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Crafting Digital Experiences</h1>
+                <p>We build beautiful, functional websites that drive business growth.</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary">Get a Quote</a>
+                    <a href="#projects" class="btn btn-secondary">See Our Work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Us</h2>
+                <p>Learn more about our company and our team</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Story</h3>
+                    <p>WebCraft Solutions was founded in 2020 with a simple mission: to help businesses succeed online through exceptional web design and development.</p>
+                    <p>What started as a small team of passionate developers has grown into a full-service digital agency with expertise across multiple platforms and technologies.</p>
+                    <h3>Our Mission</h3>
+                    <p>We aim to empower businesses with digital solutions that enhance their brand, increase their reach, and drive sustainable growth.</p>
+                    <a href="#" class="btn btn-tertiary" id="readMoreBtn">Read More</a>
+                </div>
+                <div class="about-image">
+                    <img src="https://www.throughlinegroup.com/wp-content/uploads/2019/09/iStock-1016776624.jpg" alt="Team Photo">
+                </div>
+            </div>
+            <div class="team-section">
+                <h3>Our Team</h3>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <img src="http://media.istockphoto.com/photos/handsome-business-man-posing-for-a-portrait-photograph-picture-id470846314?k=6&m=470846314&s=612x612&w=0&h=0_n_vCGqre4TT-C4MbKI8dJA9m1-mJfvn0qZhjwb_1g=" alt="Team Member">
+                        <h4>Manish Neermul</h4>
+                        <p></p>
+                    </div>
+                    <div class="team-member">
+                        <img src="https://as2.ftcdn.net/v2/jpg/05/45/89/41/1000_F_545894172_fLINXPGJs19SgFvA3P6vTvXN59iScZJ0.jpg" alt="Team Member">
+                        <h4>Ganeshwarsingh Bissonauth</h4>
+                        <p></p>
+                    </div>
+                    <div class="team-member">
+                        <img src="https://www.westend61.de/images/0000815926pw/portrait-of-happy-businesswoman-sitting-at-desk-in-the-office-MOEF00458.jpg" alt="Team Member">
+                        <h4>Laelle Sans souci</h4>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Expert solutions to help your business grow</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Custom websites built with modern technologies and best practices.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Responsive Design</h3>
+                    <p>Websites that look and function perfectly on all devices.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>E-commerce Solutions</h3>
+                    <p>Online stores that drive sales and improve customer experience.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>SEO Optimization</h3>
+                    <p>Improve your visibility in search engines and attract more visitors.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Projects</h2>
+                <p>Some of our best work</p>
+            </div>
+            <div class="project-slider-container">
+                <div class="project-slider">
+                    <div class="project-slide active">
+                        <div class="project-image">
+                            <img src="https://img.sur.ly/thumbnails/620x343/c/commerce.zoho.in.png" alt="Project 1">
+                        </div>
+                        <div class="project-info">
+                            <h3>E-commerce Website</h3>
+                            <p>A fully responsive online store with integrated payment processing and inventory management.</p>
+                            <a href="https://www.zoho.com/commerce/" class="btn btn-tertiary">View Details</a>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <div class="project-image">
+                            <img src="https://world.webdesignclip.com/wp-content/uploads/20231214_01.jpg" alt="Project 2">
+                        </div>
+                        <div class="project-info">
+                            <h3>Corporate Website</h3>
+                            <p>A professional website for a multinational corporation with branch location integration.</p>
+                            <a href="https://www.barberhauler.com/fr/?ref=siteinspire" class="btn btn-tertiary">View Details</a>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <div class="project-image">
+                            <img src="https://getdooapp.com/images/doo_device_hero.jpg" alt="Project 3">
+                        </div>
+                        <div class="project-info">
+                            <h3>Mobile App Landing Page</h3>
+                            <p>A conversion-optimized landing page for a fitness mobile application.</p>
+                            <a href="https://www.getdooapp.com/?ref=landingfolio" class="btn btn-tertiary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+                    <div class="slider-dots">
+                        <span class="slider-dot active" data-index="0"></span>
+                        <span class="slider-dot" data-index="1"></span>
+                        <span class="slider-dot" data-index="2"></span>
+                    </div>
+                    <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Showcase -->
+    <section class="video-showcase">
+        <div class="container">
+            <div class="section-header">
+                <h2>Watch Us in Action</h2>
+                <p>See our process and meet our team</p>
+            </div>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/GxmfcnU3feo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Client Testimonials</h2>
+                <p>What our clients say about us</p>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial active">
+                    <div class="testimonial-content">
+                        <p>"WebCraft Solutions transformed our online presence with a stunning website that perfectly captures our brand. The team was professional, responsive, and delivered beyond our expectations."</p>
+                        <div class="testimonial-author">
+                            <h4>Michael Johnson</h4>
+                            <p>CEO, Tech Innovations</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"Working with WebCraft was a game-changer for our e-commerce business. Our new website has increased our sales by 40% in just three months!"</p>
+                        <div class="testimonial-author">
+                            <h4>Lisa Chen</h4>
+                            <p>Founder, StyleHouse Boutique</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"The team at WebCraft Solutions provided exceptional service from start to finish. They took the time to understand our needs and delivered a website that exceeds all our requirements."</p>
+                        <div class="testimonial-author">
+                            <h4>David Williams</h4>
+                            <p>Marketing Director, Global Solutions Inc.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <span class="testimonial-dot active" data-index="0"></span>
+                <span class="testimonial-dot" data-index="1"></span>
+                <span class="testimonial-dot" data-index="2"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <p>Get in touch for a free consultation</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Address</h3>
+                            <p>Kwan Tee Street, Les Salines, Port Louis, Mauritius 11304 </p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+(230) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@webcraftsolutions.com</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.tiktok.com/"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <span class="error-message"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>WebCraft<span>Solutions</span></h2>
+                    <p>Creating digital experiences that matter</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Subscribe to our Newsletter</h3>
+                    <form id="newsletterForm">
+                        <input type="email" placeholder="Your Email Address" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 WebCraft Solutions. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Popup Message -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close-popup">&times;</span>
+            <h3>Thank You!</h3>
+            <p>Your message has been sent successfully. We'll get back to you shortly.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
